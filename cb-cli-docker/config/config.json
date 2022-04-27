@@ -1,0 +1,32 @@
+{
+    "chains": [
+        {
+            "name": "Goerli",
+            "type": "ethereum",
+            "id": "0",
+            "endpoint": "wss://goerli-light.eth.linkpool.io/ws",
+            "from": "0x865f603F42ca1231e5B5F90e15663b0FE19F0b21",
+            "opts": {
+                "bridge": "0x9D926752133d58031Aea62D221f94Dc79Fb6E7C3",
+                "erc20Handler": "0xF5109581d07B9F399012C46328A11928D606CE2F",
+                "genericHandler": "0xF5109581d07B9F399012C46328A11928D606CE2F",
+                "gasLimit": "1000000",
+                "maxGasPrice": "10000000000"
+            }
+        },
+        {
+            "name": "Goerli (again)",
+            "type": "ethereum",
+            "id": "1",
+            "endpoint": "wss://goerli-light.eth.linkpool.io/ws",
+            "from": "0x865f603F42ca1231e5B5F90e15663b0FE19F0b21",
+            "opts": {
+                "bridge": "0x8EaCbAB14a8153b3344F9592DEC910ECe49149D1",
+                "erc20Handler": "0x5F35427F36086452078165AcaEe2F92e29311A16",
+                "genericHandler": "0x5F35427F36086452078165AcaEe2F92e29311A16",
+                "gasLimit": "1000000",
+                "maxGasPrice": "10000000000"
+            }
+        }
+    ]
+}

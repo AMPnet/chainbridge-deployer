@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  chainbridge-relayer:
+    container_name: chainbridge-relayer
+    image: chainsafe/chainbridge:latest
+    environment:
+      - KEYSTORE_PASSWORD=password
+    command: --config /config/config.json --verbosity trace --latest
+    network_mode: host
+#    ports: TODO
+#     - 1234:1234
+    volumes:
+     - ./cb-cli-docker/config:/config
+     - ./cb-cli-docker/keys:/keys/
+#  cb-cli:
+#    container_name: cb-cli
+#    image: ampnet/cb-cli:1.0.0

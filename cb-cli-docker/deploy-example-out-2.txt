@@ -1,0 +1,36 @@
+Deploying contracts...
+✓ Bridge contract deployed
+✓ ERC20Handler contract deployed
+✓ ERC20 contract deployed
+
+================================================================
+Url:        https://rpc.goerli.mudit.blog
+Deployer:   0x865f603F42ca1231e5B5F90e15663b0FE19F0b21
+Gas Limit:   8000000
+Gas Price:   1000000000
+Deploy Cost: 0.008333206
+
+Options
+=======
+Chain Id:    1
+Threshold:   1
+Relayers:    0x865f603F42ca1231e5B5F90e15663b0FE19F0b21
+Bridge Fee:  0
+Expiry:      100
+
+Contract Addresses
+================================================================
+Bridge:             0x8EaCbAB14a8153b3344F9592DEC910ECe49149D1
+----------------------------------------------------------------
+Erc20 Handler:      0x5F35427F36086452078165AcaEe2F92e29311A16
+----------------------------------------------------------------
+Erc721 Handler:     Not Deployed
+----------------------------------------------------------------
+Generic Handler:    Not Deployed
+----------------------------------------------------------------
+Erc20:              0xE4c5741431334359c4654704Ba851EE3E450a16f
+----------------------------------------------------------------
+Erc721:             Not Deployed
+----------------------------------------------------------------
+Centrifuge Asset:   Not Deployed
+================================================================

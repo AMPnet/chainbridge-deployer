@@ -4,5 +4,6 @@ WORKDIR /cb-sol-cli
 RUN apk add make
 RUN apk add git
 RUN apk add npm
-RUN make install
+RUN apk add coreutils
 RUN npm install
+RUN make install
